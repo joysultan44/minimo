@@ -1,0 +1,301 @@
+/* common start */
+body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #626262;
+}
+/* common end */
+/* header start */
+header{
+        padding: 20px 0;
+}
+.container{
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        overflow: hidden;
+
+}
+.logo {
+        width: 12%;
+        /* border: 1px solid black; */
+        float: left;
+        margin-top: 10px;
+
+
+}
+.logo img{
+        width: 100%;
+}
+.menu{
+        width: 65%;
+        /* border: 1px solid black; */
+        float: right;
+
+}
+.menu ul{
+        float: right;
+
+}
+.menu ul li{
+        list-style-type: none;
+        float: left;
+
+}
+.menu ul li a{
+        color:#626262 ;
+        padding: 3px 2px 3px;
+        text-decoration: none;
+        margin: 0 60px;
+        display: inline-block;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+        transition: .3s;
+
+}
+.menu ul li a:hover{
+        border-bottom: 1px solid #626262;
+
+
+}
+.menu ul li:last-child a{
+        margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner{
+
+}
+.b-img{
+
+}
+.b-img img{
+        width: 100%;
+}
+/* banner end */
+
+/* perfect start */
+.perfect{
+        padding: 100px 0;
+
+}
+.container2{
+        margin: 0 auto;
+        width: 80%;
+        /* border: 1px solid black; */
+
+}
+.p-content{
+
+}
+.c-light{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color:#b4ad9e ;
+        text-transform: uppercase;
+
+}
+.c-title{
+        font-size: 30px;
+        font-weight: 400;
+
+}
+.c-text{
+        line-height: 25px;
+
+}
+.mb-40{
+        margin-bottom: 40px;
+}
+/* perfect end */
+
+/* blog start */
+.first-row{
+        padding: 70px 0;
+        overflow: hidden;
+}
+.b-left{
+        width: 45%;
+        /* border: 1px solid red; */
+        float: left;
+
+
+}
+.blog-img{
+
+}
+.blog-img img{
+        width: 100%;
+
+}
+.b-content{
+
+}
+.b-right{
+        width: 45%;
+        /* border: 1px solid blue; */
+        float: right;
+}
+
+/* blog end */
+
+/* news start */
+.news{
+        background-color: #f0f0f0;
+        padding: 70px 0;
+}
+.two-blog{
+        padding: 70px 0;
+}
+.signup{
+        text-align: center;
+       
+}
+.signup h1{
+        color: #333333;
+        margin-top: 0;
+        margin-bottom: 70px;
+}
+.s-form{
+        position: relative;
+        width: 380px;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+}
+.s-form input{
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        color:#626262 ;
+        width: 322px;
+        height: 45px;
+        border: none;
+        border-bottom: 1px solid #333333;
+        background-color: transparent;
+        padding-left: 5px;
+        padding-right: 45px;
+        
+
+        
+}
+.s-form input:focus{
+        outline: none;
+}
+.s-form button{
+        position: absolute;
+        
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        top: 0;
+        right: 15px;
+        bottom: 5px;
+    }
+
+}
+
+.s-form button img{
+
+}
+/* news end */
+/* load-btn start */
+.load-btn{
+        text-align: center;
+        padding: 100px 0;
+        padding: 90px 20px 160px
+
+}
+.ldn-btn{
+        width: 206px;
+       padding: 20px 0;
+        ;
+        background: transparent;
+        border-radius: 25px;
+        border: 1px solid#f0f0f0;
+        transition: .3s;
+
+
+}
+.ldn-btn:hover{
+        background-color: #F0F0F0;
+}
+
+.btn-h1{
+        font-style:initial;
+        margin: 0;
+        font-size: 20px;
+        color: #626262;
+}
+/* load-btn-end */
+/* footer start */
+footer{
+        
+     
+
+}
+.wrapper{
+        width: 100%;
+        background-color: #F0F0F0;
+        
+      
+       
+
+}
+.foot-content{
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 45px 0;
+      
+
+}
+.foot-left{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+       
+        color:#626262 ;
+        width: 15%;
+        float: left;
+        margin-right: 20px;
+
+
+
+}
+.foot-right{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+       
+        color:#626262 ;
+        width: 10%;
+        float: left;
+
+}
+
+    .social-icons{
+            float: right;
+            margin-top: 20px;
+            cursor: pointer;
+            
+
+    }
+    .social-icons a{
+            text-decoration: none;
+            color: #808080;
+            margin-right: 11px;
+         
+    }
+    .foot-span{
+            color: #000000;
+    }
+    .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+   
+/* footer end */
